@@ -51,7 +51,7 @@ ENTRYPOINT [ "sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urando
 #### 构建Docker镜像
 
 ```
-docker clean package docker:build
+mvn clean package docker:build
 ```
 
 #### 查看/删除镜像
